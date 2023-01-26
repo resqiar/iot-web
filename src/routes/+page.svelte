@@ -1,4 +1,6 @@
 <script lang="ts">
+	export const prerender = true;
+
 	interface LEDProps {
 		led: '1' | '2' | 'both';
 		state: 'on' | 'off' | 'blink';
